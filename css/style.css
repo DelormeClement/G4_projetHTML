@@ -1,0 +1,69 @@
+body {
+    background-color: blanchedalmond;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.intro {
+    font-size: 17px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.image {
+    width: 500px;
+    height: 300px;
+}
+
+.lien {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.cadre {
+    border: 1px solid #000;
+}
+
+.exemple {
+    flex-direction: row-reverse;
+    align-items: center;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.exp-bottom {
+    flex-direction: row;
+}
+
+.sidetext {
+    padding: 16px;
+}
+
+.reseaux {
+    margin-top: 60px;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        font-size: 16px;
+    }
+    .sidetext {
+        font-size: 21px;
+    }
+    .reseaux {
+        font-size: 15px;
+    }
+}
